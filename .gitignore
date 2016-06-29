@@ -1,0 +1,11 @@
+.editorconfig
+node_modules/
+npm-debug.log
+dist
+launchConfigurations
+project.json
+Procfile
+*.swp
+.project
+jsconfig.json
+TASKS.md
