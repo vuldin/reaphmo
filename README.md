@@ -1,8 +1,15 @@
 reaphmo
 =======
 
-A minimal application combining [MobX](https://mobxjs.github.io/mobx), [React](https://facebook.github.io/react), and [Aphrodite](https://github.com/Khan/aphrodite).
-Supports ES6 and JSX compilation through babel.
+A webapp template using the following tools:
+- [webpack](https://github.com/webpack/webpack)
+- [react](https://facebook.github.io/react)
+- [mobx](https://mobxjs.github.io/mobx)
+- [aphrodite](https://github.com/Khan/aphrodite)
+- [font-awesome](https://github.com/FortAwesome/Font-Awesome)
+- [normalize](https://github.com/necolas/normalize.css)
+- [lodash](https://github.com/lodash/lodash)
+- [babel](https://github.com/babel/babel)
 
 ### Run the project
 
