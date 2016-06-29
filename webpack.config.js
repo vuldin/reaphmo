@@ -15,11 +15,17 @@ let exp = {
   },
   plugins: [],
   resolve: {
-    extensions: ['', '.js', '.jsx']
+    extensions: ['', '.js']
   },
   module: {
     loaders: [
-      { test: /\.jsx?$/,loaders: ['babel'],include: path.join(__dirname, 'src') }
+      { test: /\.jsx?$/,loaders: ['babel'],include: path.join(__dirname, 'src') },
+      { include: path.join(__dirname, 'node_modules', 'normalize.css', 'normalize.css'), loaders: ['style', 'css']},
+      { include: path.join(__dirname, 'node_modules', 'font-awesome', 'css', 'font-awesome.css'), loaders: ['style', 'css']},
+      { test: /\.(woff|woff2)(\?v=\d+\.\d+\.\d+)?$/, loader: "url?limit=10000&mimetype=application/font-woff" },
+      { test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, loader: "url?limit=10000&mimetype=application/octet-stream" },
+      { test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: "file" },
+      { test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: "url?limit=10000&mimetype=image/svg+xml" },
     ]
   }
 }
