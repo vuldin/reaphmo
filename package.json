@@ -19,7 +19,7 @@
   "author": "IBM Global Solution Center",
   "license": "MIT",
   "homepage": "https://hub.jazz.net/git/joshuapurcell/reaphmo/overview",
-  "devDependencies": {
+  "dependencies": {
     "babel-core": "^6.9.1",
     "babel-eslint": "^6.1.0",
     "babel-loader": "^6.2.4",
@@ -34,9 +34,7 @@
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.1",
-    "webpack-dev-server": "^1.14.1"
-  },
-  "dependencies": {
+    "webpack-dev-server": "^1.14.1",
     "aphrodite": "^0.4.0",
     "font-awesome": "^4.6.3",
     "lodash": "^4.13.1",
